@@ -174,5 +174,5 @@ def introduction():
         print("It seems that input isn't a digit. Please write correct value")
         introduction()
         return None
-
-introduction()
+if __name__ == '__main__':
+    introduction()
