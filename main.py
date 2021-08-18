@@ -151,7 +151,7 @@ def record_sound_and_plot():
 DICT_OF_FUNCTIONS = {'Record sound to .WAV': record_sound_to_wav, 'Record sound and plot': record_sound_and_plot}
 
 def introduction():
-    print('Welcome to ShitChords!')
+    print('Welcome to Chords!')
     print('What you want to do? Please, choose one function from list below and write its number.')
     print('If you want to exit, write "exit"')
     for i in range(len(DICT_OF_FUNCTIONS.items())):
